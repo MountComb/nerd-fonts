@@ -1239,9 +1239,9 @@ class font_patcher:
             self.font_dim = {
                 'xmin'      : 0,
                 'ymin'      : -self.sourceFont.descent,
-                'xmax'      : self.sourceFont.em,
+                'xmax'      : self.sourceFont.em / 2,
                 'ymax'      : self.sourceFont.ascent,
-                'width'     : self.sourceFont.em,
+                'width'     : self.sourceFont.em / 2,
                 'height'    : self.sourceFont.descent + self.sourceFont.ascent,
                 'iconheight': self.sourceFont.descent + self.sourceFont.ascent,
                 'ypadding'  : 0,
